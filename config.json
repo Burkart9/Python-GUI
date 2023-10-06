@@ -1,0 +1,6 @@
+{
+"theme":{
+"dark":{"fg":"white", "bg":"black"},
+"light":{"fg":"black", "bg":"white"}},
+"current_theme":"dark"
+}
