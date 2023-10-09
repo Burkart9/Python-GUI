@@ -3,6 +3,5 @@
 "dark":{"fg":"white", "bg":"black"},
 "light":{"fg":"black", "bg":"white"}},
 "current_theme":"light",
-"current_language":"zh_Hans_CN",
-"version":"1.0"
+"current_language":"zh_Hans_CN"
 }
