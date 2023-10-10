@@ -12,9 +12,11 @@ def test():
 
 # Widgets
 b1 = ttk.Button(root, text="Button 1", command=test, bootstyle=SUCCESS)
-b1.pack(side=LEFT, padx=5, pady=10, expand=True, fill=X)
 b2 = ttk.Button(root, text="Button 2", bootstyle=(INFO, OUTLINE))
-b2.pack(side=LEFT, padx=5, pady=10, expand=True, fill=X)
+
+wl = [b1,b2]
+for w in wl:
+    w.pack(fill=BOTH)
 
 # Mainloop
 root.mainloop()
